@@ -1,0 +1,8 @@
+memread:1316544
+memwrite:611377
+l1cachehit:4026339
+l1cachemiss:1791155
+l2cachehit:474611
+l2cachemiss:1316544
+
+./second 512 assoc:1 fifo 16 1024 assoc:1 fifo trace4.txt

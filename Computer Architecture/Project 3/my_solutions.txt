@@ -1,0 +1,11 @@
+778
+She sells seashells by the sea shore.
+The quic6 brown fox jumps over the lazy dog.
+4 12 36 108 324 972
+3 2 6 4 5 1
+12 43
+301
+3 36
+0 q 112
+
+

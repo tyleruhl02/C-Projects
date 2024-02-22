@@ -1,0 +1,30 @@
+Nihar Biradar nb769
+Tyler Uhl tbu3
+
+Simple shell that handles input/output redirection, wildcard expansion, pipes, as well as handles built in commands like "cd" and "pwd".
+The shell has two modes, interactive mode and batch mode. Interactive mode lets users input commands directly. Batch mode executes commands from a file.
+If the program is run without any arguments "./mysh" then it will be in interative mode. If it is run with a batch file, "./mysh batch.txt" then it will be in batch mode.
+The conditional aspect of the program only takes one conditional inside of [] brackets.
+
+Our test plan was as follows:
+    cd/pwd test
+        (inside interactive mode)
+        mysh> pwd
+        mysh> cd ..
+        mysh> pwd
+        mysh> which echo
+
+    input / output detection with inputTest.c
+        (inside interactive mode)
+        mysh> ./inputTest < input3.txt > output13.txt
+    
+    wildcard detection with printFiles.c
+        (inside interactive mode)
+        mysh> ./printFiles input*.txt>output1.txt
+
+    pipe testing
+        (inside interactive mode)
+        mysh> ls -l | grep .txt
+
+    batch mode testing with test_script.sh
+        ./mysh test_script.sh

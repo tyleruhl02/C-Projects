@@ -1,0 +1,2 @@
+SOMETHING HAPPENING!
+Enter a line of text: You entered: input1.txt input2.txt
